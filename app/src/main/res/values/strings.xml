@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AndroidUI</string>
+    <string name="string_display">显示相关</string>
+    <string name="string_textview">TextView</string>
+    <string name="string_build_info">系统信息</string>
+    <string name="string_loop_task">循环任务</string>
+    <string name="string_loop_task2">循环任务2</string>
+    <string name="string_preference">PreferenceListener</string>
+</resources>

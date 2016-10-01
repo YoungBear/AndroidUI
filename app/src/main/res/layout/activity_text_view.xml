@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_text_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context="com.example.androidui.activity.TextViewActivity">
+
+    <TextView
+        android:id="@+id/txt_show"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+
+        android:singleLine="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text="abcdefghfennosnfosnf"
+
+        />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="confirm"/>
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="set Text Ellipsize Start"/>
+
+    <Button
+        android:id="@+id/btn_middle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="set Text Ellipsize Middle"/>
+
+    <Button
+        android:id="@+id/btn_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="set Text Ellipsize End"/>
+
+    <Button
+        android:id="@+id/btn_marquee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="set Text Ellipsize Marquee"/>
+
+</LinearLayout>
