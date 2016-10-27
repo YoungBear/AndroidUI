@@ -10,6 +10,7 @@ import com.example.androidui.R;
 public class DisplayActivity extends Activity {
 
     private TextView txtContent;
+    private TextView txtString;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +24,7 @@ public class DisplayActivity extends Activity {
 
     private void initView() {
         txtContent = (TextView) findViewById(R.id.txt_content);
+        txtString = (TextView) findViewById(R.id.txt_string);
 
         txtContent.setScrollContainer(true);
 
