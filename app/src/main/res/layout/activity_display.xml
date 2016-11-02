@@ -19,6 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#FF0000"
+        android:textSize="@dimen/test_dimen_value"
         android:text="@string/string_density"/>
 
 </LinearLayout>
