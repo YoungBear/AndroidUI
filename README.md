@@ -1,15 +1,4 @@
-##资源匹配有线顺序：
-
-测试设备：
-
-mdpi 先锋 mtk5507 39B700S density:1.0 1280*720
-
-hdpi PPTV mstar 65T2 density:1.5 1920*1080
-
-tvdpi PPTV mtk5508 50P density:1.33125 1920*1080
-
-xxhdpi 魅族MX5 density:3.0 1080*1920
-
+##资源匹配优先顺序：
 
 
 设备dpi    |    优先级
