@@ -11,6 +11,7 @@ import com.example.androidui.activity.DisplayActivity;
 import com.example.androidui.activity.LoopTask2Activity;
 import com.example.androidui.activity.LoopTaskActivity;
 import com.example.androidui.activity.PreferenceTestActivity;
+import com.example.androidui.activity.ProviderActivity;
 import com.example.androidui.activity.TextViewActivity;
 
 public class MainActivity extends Activity {
@@ -30,6 +31,7 @@ public class MainActivity extends Activity {
         Button btnLoopTask = (Button) findViewById(R.id.btn_loop_task);
         Button btnLoopTask2 = (Button) findViewById(R.id.btn_loop_task2);
         Button btnPreference = (Button) findViewById(R.id.btn_preference);
+        Button btnProvider = (Button) findViewById(R.id.btn_provider);
 
         btnDisplay.setOnClickListener(buttonListener);
         btnTextView.setOnClickListener(buttonListener);
@@ -37,6 +39,7 @@ public class MainActivity extends Activity {
         btnLoopTask.setOnClickListener(buttonListener);
         btnLoopTask2.setOnClickListener(buttonListener);
         btnPreference.setOnClickListener(buttonListener);
+        btnProvider.setOnClickListener(buttonListener);
 
     }
 
@@ -67,6 +70,9 @@ public class MainActivity extends Activity {
                     break;
                 case R.id.btn_preference:
                     startActivity(PreferenceTestActivity.class);
+                    break;
+                case R.id.btn_provider:
+                    startActivity(ProviderActivity.class);
                     break;
                 default:
                     break;

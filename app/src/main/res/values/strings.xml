@@ -7,4 +7,5 @@
     <string name="string_loop_task2">循环任务2</string>
     <string name="string_preference">PreferenceListener</string>
     <string name="string_density">values-default</string>
+    <string name="string_provider">ProviderActivity</string>
 </resources>
