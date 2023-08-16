@@ -1,6 +1,8 @@
 package com.example.androidui;
 
-import android.app.Activity;
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -14,13 +16,12 @@ import com.example.androidui.activity.PreferenceTestActivity;
 import com.example.androidui.activity.ProviderActivity;
 import com.example.androidui.activity.TextViewActivity;
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         initView();
     }
 
@@ -48,7 +49,8 @@ public class MainActivity extends Activity {
         startActivity(intent);
     }
 
-    private View.OnClickListener buttonListener = new View.OnClickListener() {
+    private final View.OnClickListener buttonListener = new View.OnClickListener() {
+        @SuppressLint("NonConstantResourceId")
         @Override
         public void onClick(View v) {
             int id = v.getId();

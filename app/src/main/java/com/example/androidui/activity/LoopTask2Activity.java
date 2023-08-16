@@ -1,12 +1,13 @@
 package com.example.androidui.activity;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.androidui.R;
 
@@ -16,7 +17,7 @@ import java.util.Locale;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class LoopTask2Activity extends Activity {
+public class LoopTask2Activity extends AppCompatActivity {
 
     private TextView txtShow;
 

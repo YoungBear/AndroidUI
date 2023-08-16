@@ -1,20 +1,21 @@
 package com.example.androidui.activity;
 
-import android.app.Activity;
 import android.os.Build;
 import android.os.Bundle;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.androidui.R;
 
-public class BuildInfoActivity extends Activity {
+public class BuildInfoActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_build_info);
 
-        TextView txt_show = (TextView)findViewById(R.id.txt_show);
+        TextView txt_show = (TextView) findViewById(R.id.txt_show);
         txt_show.setText(getBuildInfo());
     }
 

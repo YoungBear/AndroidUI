@@ -1,6 +1,5 @@
 package com.example.androidui.activity;
 
-import android.app.Activity;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.os.Bundle;
@@ -11,9 +10,11 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.androidui.R;
 
-public class PreferenceTestActivity extends Activity {
+public class PreferenceTestActivity extends AppCompatActivity {
 
     private SharedPreferences mSharedPreferences;
 

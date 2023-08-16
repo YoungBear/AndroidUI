@@ -1,13 +1,14 @@
 package com.example.androidui.activity;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.androidui.R;
 
-public class DisplayActivity extends Activity {
+public class DisplayActivity extends AppCompatActivity {
 
     private TextView txtContent;
     private TextView txtString;

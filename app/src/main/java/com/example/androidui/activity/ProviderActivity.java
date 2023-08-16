@@ -1,15 +1,16 @@
 package com.example.androidui.activity;
 
-import android.app.Activity;
 import android.content.ContentValues;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.androidui.R;
 
-public class ProviderActivity extends Activity {
+public class ProviderActivity extends AppCompatActivity {
 
     public static final String TAG = ProviderActivity.class.getSimpleName();
 

@@ -1,6 +1,5 @@
 package com.example.androidui.activity;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -8,13 +7,15 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.androidui.R;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-public class LoopTaskActivity extends Activity {
+public class LoopTaskActivity extends AppCompatActivity {
 
     private TextView txtShow;
 

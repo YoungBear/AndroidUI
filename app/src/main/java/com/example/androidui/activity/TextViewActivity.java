@@ -1,6 +1,5 @@
 package com.example.androidui.activity;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -8,9 +7,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.androidui.R;
 
-public class TextViewActivity extends Activity {
+public class TextViewActivity extends AppCompatActivity {
 
     private TextView txtShow;
     private EditText et1;
